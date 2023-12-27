@@ -1,0 +1,22 @@
+{
+  "name": "frontend_todo",
+  "version": "1.0.0",
+  "description": "frontend for todo backend in for personal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedePakusadewa/todo_list.git"
+  },
+  "author": "putu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedePakusadewa/todo_list/issues"
+  },
+  "homepage": "https://github.com/gedePakusadewa/todo_list#readme",
+  "dependencies": {
+    "npm": "^10.2.5"
+  }
+}
