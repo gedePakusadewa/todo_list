@@ -1,0 +1,20 @@
+input {
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.create-btn{
+    margin-top:-7px;
+    border-radius: 4px !important;
+}
+
+.task-box{
+    background-color: white;
+    width: 313px;
+}
+
+.edit-btn{
+    border-radius: 4px !important;
+    margin: 0px 2px !important;
+}
