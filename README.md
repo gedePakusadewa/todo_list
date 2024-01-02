@@ -33,3 +33,5 @@ todo list frontend
 todo list backend
 -merapikan code
 
+This is the app when running in local
+
