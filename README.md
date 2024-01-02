@@ -34,4 +34,6 @@ todo list backend
 -merapikan code
 
 This is the app when running in local
-
+![alt text](https://github.com/gedePakusadewa/todo_list/blob/master/1.png)
+![alt text](https://github.com/gedePakusadewa/todo_list/blob/master/2.png)
+![alt text](https://github.com/gedePakusadewa/todo_list/blob/master/3.png)
