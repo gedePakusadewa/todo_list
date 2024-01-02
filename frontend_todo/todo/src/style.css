@@ -12,9 +12,27 @@ input {
 .task-box{
     background-color: white;
     width: 313px;
+    margin: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px 4px 0px 0px !important;
 }
 
 .edit-btn{
     border-radius: 4px !important;
     margin: 0px 2px !important;
+}
+
+.edit-btn-box{
+    margin: auto;
+    background-color: white;
+    width: 313px;
+    text-align: left;
+    padding: 0 0 5px 5px;
+    border-radius: 0px 0px 4px 4px !important;
+}
+
+.container-task{
+    margin-bottom: 10px;
 }

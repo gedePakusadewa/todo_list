@@ -4,24 +4,29 @@ import axios from 'axios';
 import '../style.css';
 
 export default function Create() {
-    const [task, setTask] = useState("");
-    const submitData = () => {
-        axios.post(`http://127.0.0.1:8000/api/todo/`, { task })
-    }
+  const defaultTextInput = "Enter Task Here"
+  const emptyText = ""
+  const [task, setTask] = useState(emptyText);
+  
+  const submitData = () => {
+    axios.post(`http://127.0.0.1:8000/api/todo/`, { task })
+    setTask(emptyText)
+  }
 
-    return(
-        <div className='mt-5'>
-            <input 
-                placeholder="Enter Task Here" 
-                onChange={(e) => {setTask(e.target.value)}}
-            />
-            <Button 
-                className="create-btn"
-                onClick={submitData}
-                variant="primary"
-            >
-                Add Task
-            </Button>
-        </div>
-    )
+  return(
+    <div className='mt-5'>
+      <input 
+        placeholder={defaultTextInput}
+        value={task}
+        onChange={(e) => {setTask(e.target.value)}}
+      />
+      <Button 
+        className="create-btn"
+        onClick={submitData}
+        variant="primary"
+      >
+        Add Task
+      </Button>
+    </div>
+  )
 }

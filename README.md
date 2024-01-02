@@ -14,13 +14,22 @@ https://stackoverflow.com/a/67936614
 NEXT
 todo list frontend 
 - page to see all todo
-- button pop up modal, contain form to create new data
+- button add withou pop up 
+    (old, invalid)button pop up modal, contain form to create new data
 - button update in each todo (position in right), pop up modal to update todo
-- botton delete in each todo (position in right), pop up modal to confirm delete
+- button delete on right side
+    (old, invalid)botton delete in each todo (position in right), pop up modal to confirm delete
 - use this as css referense https://repository-images.githubusercontent.com/513729889/be727781-c092-40f2-b960-6c490df1b228
 
 issue and solution ->
 https://stackoverflow.com/a/77005077
 https://stackoverflow.com/a/65924607
 https://stackoverflow.com/a/74272181
+
+NEXT
+todo list frontend
+-merapikan code
+
+todo list backend
+-merapikan code
 
